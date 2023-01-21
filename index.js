@@ -10,19 +10,18 @@ tienLuong = ngayLam * luongNgay;
 console.log('tiền lương:', tienLuong);
 
 //  bài 2: Tính giá trị trung bình 
-// input: diemToan: number, diemLy: number, diemHoa: number, diemSinh: number, diemVan: number
-var trungBinh = 0;
-var a = 5;
-var b = 6;
-var c = 7;
-var d = 8;
-var e = 9;
-// output: soLuong: number
-var trungBinh = 0;
-  // process: xử lý
-var trungBinh = (a + b + c + d + e) / 5;
-  // in gí trị output ra MH
-console.log('giá trị trung bình:', trungBinh);
+ // input: diemToan: number, diemLy: number, diemHoa: number, diemSinh: number, diemVan: number
+ var diemToan = 10;
+ var diemLy = 8;
+ var diemHoa = 9;
+ var diemSinh = 8;
+ var diemVan = 9;
+ // output: soLuong: number
+ var trungBinh = 0;
+ // process: xử lý
+ var trungBinh = (diemToan + diemLy + diemHoa + diemSinh + diemVan) / 5;
+ // in gí trị output ra MH
+ console.log('điểm trung bình:', trungBinh)
 
 // bai 3: số tiền sau quy đổi 
 // input: giaUSD: number, soTienUSD: number
